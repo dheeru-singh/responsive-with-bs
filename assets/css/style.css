@@ -122,13 +122,13 @@ footer{
     margin-top: 30px;
 }
 .portfolio-box {
-    width: 300px;
+    width: 33.3%;
     height: 240px;
     float: left;
     display: block;
 }
 .portfolio-box .image-box{
-    width: 280px;
+    width: 97%;
     height: 200px;
     display: block;
     overflow: hidden;
@@ -137,7 +137,7 @@ footer{
 .portfolio-box .image-box img{
     height: 200px;
     display: block;
-    min-width: 280px;
+    min-width: 100%;
 }
 .portfolio-box .p-name{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -147,7 +147,7 @@ footer{
     padding: 15px 0px;
     position: relative;
     top: -60px;
-    width:280px;
+    width:97%;
 }
 .portfolio-box .p-name:hover {
     color: #3d66c1 !important;
@@ -176,6 +176,15 @@ footer{
       background-color: #f3f3f3;
       border-bottom: 2px solid #fff;
    }
+   .portfolio-box{
+        width:100%;
+    }
+    .portfolio-box .image-box{
+        width:100%;
+    }
+    .portfolio-box .p-name{
+        width:100%;
+    }
 }
 @media only screen and (max-width: 450px) {
     .profile-pic{
